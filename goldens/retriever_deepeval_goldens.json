@@ -1,0 +1,92 @@
+[
+  {
+    "id": "g001",
+    "query": "How do model evals and application evals in LLM evaluations differ in purpose and focus?",
+    "ideal_answer": "Model evals focus on assessing the performance of the LLM itself, while application evals evaluate how well the LLM performs within specific applications. This distinction helps in understanding and improving both the model and its practical use cases.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g002",
+    "query": "Which specific RAG evaluation steps and transformer architectures will next class cover, including tokenization and fine-tuning?",
+    "ideal_answer": "The next class will cover RAG evaluation starting with transformer architectures including decoder-only, encoder-only, and encoder-decoder models. Following that, tokenization, data curation, pre-training, fine-tuning, and alignment will be discussed as part of the full track.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g003",
+    "query": "How does an LLM, prompted with customer emails, automate routing and require evaluation before deployment?",
+    "ideal_answer": "An LLM automates routing by reading customer emails and deciding which team to forward them to, eliminating manual tagging. This simple system can be built quickly but requires thorough evaluation before deployment to ensure accuracy and reliability, especially for high-volume companies like Zomato.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g004",
+    "query": "If the platform mimics human UPSC evaluation perfectly, how might this redefine exam assessment standards?",
+    "ideal_answer": "If the platform mimics human UPSC evaluation perfectly, it could standardize and streamline exam assessments, ensuring consistent, unbiased, and efficient evaluation. This would potentially set a new benchmark for accuracy and fairness in exam grading, reducing human error and subjectivity.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g005",
+    "query": "Analyze the efficacy of human-in-the-loop interventions in mitigating LLM evaluation ambiguities.",
+    "ideal_answer": "Human-in-the-loop interventions effectively address LLM evaluation ambiguities by involving human judgment when automated or programmatic checks fall into grey areas. This ensures nuanced decision-making that machines alone may miss, improving overall evaluation accuracy.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g006",
+    "query": "How do benchmark saturation and dataset diversity affect model performance evaluation lifecycle?",
+    "ideal_answer": "Benchmark saturation occurs when models reach or surpass human-level performance, causing scores to cluster and making it difficult to distinguish improvements. Dataset diversity, such as using multiple exam sections and languages, initially helps evaluate models comprehensively, but as saturation sets in, the benchmark loses effectiveness and is eventually retired.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g007",
+    "query": "How does MMLU, introduced in 2020, systematically evaluate LLMs’ retained world knowledge across 57 subjects?",
+    "ideal_answer": "MMLU, introduced in 2020, systematically evaluates LLMs' retained world knowledge by testing them across a dataset covering around 57 diverse subjects. Unlike random questioning, MMLU provides a structured benchmark to measure how much meaningful knowledge a model has gained and retained from training.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g008",
+    "query": "Analyze why increased model size inversely affects truthfulness despite higher capability levels.",
+    "ideal_answer": "Increased model size inversely affects truthfulness because larger models absorb more misconceptions present on the internet during training. While their capability improves, they also internalize and present these inaccuracies at a higher level. This leads to a trade-off where greater capability does not equate to better alignment or truthfulness, as demonstrated by benchmarks showing that more capable models can be less truthful.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g009",
+    "query": "How can visible dataset strings and benchmark privacy reveal if models were trained on specific benchmarks?",
+    "ideal_answer": "Visible dataset strings in a model's output indicate that the benchmark data was likely included in its training, revealing direct exposure. Benchmark privacy helps protect datasets from being used in training, but since it's often unclear if benchmarks were part of training, these visible strings serve as clues to detect such usage.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g010",
+    "query": "How does constructing diverse, repeatable data sets enable systematic evaluation across chatbot versions?",
+    "ideal_answer": "Constructing diverse, repeatable data sets enables systematic evaluation by covering all edge cases and reflecting real user interactions. This approach allows consistent testing across different chatbot versions or changes (like prompts, models, or retrieval methods), ensuring reliable comparison and tracking of performance over time.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g011",
+    "query": "How do zero-shot and few-shot prompt constructions differ in providing example solutions to LLMs?",
+    "ideal_answer": "Zero-shot prompt construction involves sending a question to the LLM without any example solutions, while few-shot prompt construction includes providing some solved example questions along with the new question. This difference affects how the model generates responses, as few-shot prompts guide the model with prior examples, whereas zero-shot relies solely on the question itself.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g012",
+    "query": "How do recall, precision, and reranker quality collectively determine retriever effectiveness in RAG?",
+    "ideal_answer": "Recall, precision, and reranker quality collectively determine retriever effectiveness in RAG by ensuring that the retrieved chunks are relevant and accurately ranked. Recall measures how many relevant documents are retrieved, precision assesses the accuracy of those retrieved documents, and reranker quality evaluates how well the retrieved results are ordered to provide the best possible answers. Together, these metrics ensure the retriever returns relevant and correctly prioritized information for effective response generation.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g013",
+    "query": "How does the programmatic method assess relevancy via document retrieval, usefulness, and ranking in vector DBs?",
+    "ideal_answer": "The programmatic method assesses relevancy in three aspects: first, how many of the actual relevant documents (as defined by a golden dataset) are retrieved from the vector database; second, whether the retrieved documents are useful; and third, whether these documents are properly ranked. This example focuses primarily on the first aspect—retrieving the actual relevant documents identified by the dataset creator.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g014",
+    "query": "How does the benchmark differentiate a model’s awareness of its knowledge limits from mere factual recall?",
+    "ideal_answer": "The benchmark differentiates a model’s awareness of its knowledge limits by assessing whether the model knows if it does not know an answer, rather than just checking factual recall. It focuses on evaluating the model’s understanding of its own knowledge boundaries, not merely its ability to reproduce facts.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g015",
+    "query": "Name the two LLMEval types, specifying which focuses on benchmarks vs. LLM app evaluation.",
+    "ideal_answer": "The two LLMEval types are Model Eval, which focuses on evaluating LLMs using benchmarks, and Application Eval, which focuses on evaluating LLM-based applications.",
+    "source": "TODO-verify"
+  }
+]
